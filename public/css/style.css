@@ -1,3 +1,13 @@
-body{
-    background-color: #93e6eb;
+
+nav{
+    height: 4rem;
+    background-color: white;
+}
+
+.fa-compass{
+    color: #fe424d;
+}
+
+.nav-link {
+    color: #222222 !important;
 }
