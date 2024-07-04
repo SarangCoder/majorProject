@@ -80,3 +80,8 @@ nav{
     background-color: #fe424d;
     border: none !important;
 }
+
+/* show page  */
+.show-img {
+    height: 30vh;
+}
