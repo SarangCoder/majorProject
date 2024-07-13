@@ -92,7 +92,7 @@ app.delete("/listings/:id" , async (req,res) => {
   res.redirect("/listings");
 })
 
-app.get("/" , (req,res) => {
+app.get("/" , (req,res) => { 
     res.send("Hi, I am root");
 });
 app.listen(8080, ()=> {

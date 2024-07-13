@@ -12,7 +12,7 @@ const listingSchema = new Schema({
         filename: String,
         url: String,
         // default : "https://unsplash.com/photos/black-suv-on-road-in-between-trees-during-daytime-sAHEPmZVL5U",
-        // set : (v) => v===""?"https://unsplash.com/photos/black-suv-on-road-in-between-trees-during-daytime-sAHEPmZVL5U" : v,
+        // set : (v) => v===""  ? 'https://unsplash.com/photos/black-suv-on-road-in-between-trees-during-daytime-sAHEPmZVL5U' : v,
     },
     price : Number,
     location : String,
